@@ -1,0 +1,290 @@
+// @import '../assets/font/iransansdn/farsi_numerals/web-fonts/css/fontiran.css';
+@import "../assets/font/iransansdn/web-fonts/css/fontiran.css";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* common */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  text-align: right;
+  font-family: "IRANSans";
+  background-image: url("../assets/img/7-02.png");
+  background-size: 1903px 1126px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background: cover;
+}
+.container {
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+ul,
+blockquote {
+  margin: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+button,
+input,
+textarea,
+label {
+  font-family: inherit;
+}
+
+@grayColor: #dedede;
+@infoColor: #2673f3;
+@dangerColor: #f32656;
+@successColor: #23c197;
+
+.dir-ltr {
+  direction: ltr;
+}
+.dir-rtl {
+  direction: rtl;
+}
+
+// btn
+.btn {
+  height: 36px;
+  border: none;
+  font-size: 18px;
+  padding: 0 12px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  background: #ffffff;
+}
+a.btn {
+  line-height: 36px;
+  display: inline-block;
+}
+
+// btn size
+.btn.btn-sm {
+  height: 20px;
+  font-size: 12px;
+  line-height: 20px;
+}
+.btn.btn-lg {
+  height: 50px;
+  font-size: 25px;
+  line-height: 50px;
+  border-radius: 7px;
+}
+.btn.btn-xl {
+  height: 70px;
+  font-size: 21px;
+  line-height: 70px;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+// byn shape
+.btn.btn-pill {
+  border-radius: 100px;
+}
+
+// btn color
+.btn-gray {
+  color: #000000;
+  background-color: @grayColor !important;
+}
+.btn-info {
+  color: #ffffff;
+  background-color: @infoColor !important;
+}
+.btn-success {
+  color: #ffffff;
+  background-color: @successColor !important;
+}
+.btn-danger {
+  color: #ffffff;
+  background-color: @dangerColor !important;
+}
+
+// text
+.main-title {
+  font-size: 36px;
+  line-height: 61px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  color: #000000;
+}
+.section-title {
+  font-size: 32px;
+  line-height: 55px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  color: #000000;
+  text-align: center;
+}
+.section-subtitle {
+  font-size: 22px;
+  line-height: 37px;
+  font-weight: 500;
+  color: #000000;
+}
+.section-desc {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #000000;
+}
+.text-info {
+  color: @infoColor !important;
+}
+.text-danger {
+  color: @dangerColor !important;
+}
+.text-success {
+  color: @successColor !important;
+}
+
+/* ======================= responsive ==================== */
+@media (max-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+  body {
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background: cover;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+  body {
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background: cover;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (max-width: 912px) {
+  html,
+  body {
+    background-image: url("../assets/img/8-03.png") !important;
+    background-size: 912px 1368px !important;
+    background-position: top;
+    background-repeat: no-repeat;
+    background: cover;
+  }
+}
+@media (max-width: 540px) {
+  html,
+  body {
+    background-image: url("../assets/img/8-03.png") !important;
+    background-size: 540px 1570px !important;
+    background-position: top;
+    background-repeat: no-repeat;
+    background: cover;
+  }
+}
+@media (max-width: 1024px) {
+  html,
+  body {
+    background-image: url("../assets/img/8-03.png") !important;
+    background-size: 1024px 1570px !important;
+    background-position: top;
+    background-repeat: no-repeat;
+    background: cover;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+  html,
+  body {
+    background-image: url("../assets/img/8-03.png") !important;
+
+    background-size: 1024px 1740px !important;
+    background-position: top;
+    background-repeat: no-repeat;
+    background: cover;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .main-section > .container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .main-section {
+    padding-top: 0;
+  }
+}
+.staff-card-container {
+  height: 320px;
+}
+
+// accounts
+div.row {
+  width: 80%;
+  margin: 4px auto;
+  background: whitesmoke;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  align-items: center;
+  border-radius: 8px;
+}
+
+div.row.head > span {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+div.row > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.row > span > img {
+  width: 70px;
+  margin-left: 8px;
+}
+
+p {
+  text-align: justify !important;
+}

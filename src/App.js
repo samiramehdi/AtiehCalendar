@@ -22,6 +22,7 @@ import Cuneiform from "./pages/custom/Cuneiform";
 import Wisdom from "./pages/custom/Wisdom";
 import RedTrees from "./pages/custom/RedTrees";
 import CollectionTrees from "./pages/custom/CollectionTrees";
+import Info from "./pages/AtiehInfo/Info";
 function App() {
   return (
     <Router>
@@ -50,6 +51,7 @@ function App() {
         <Route path="/wisdom" element={<Wisdom />} />
         <Route path="/redTrees" element={<RedTrees />} />
                 <Route path="/collectionTrees" element={<CollectionTrees />} />
+                <Route path="/info" element={<Info />} />
         <Route path="/branchs" element={<Branches />} />
       </Routes>
     </Router>

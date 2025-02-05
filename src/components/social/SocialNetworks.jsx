@@ -24,7 +24,8 @@ export default function SocialNetworks() {
           <TelegramIcon className="svg-instagram" />
         </a>
         <a
-          href="https://www.aparat.com/Atieh-Broker"
+          // href="https://www.aparat.com/Atieh-Broker"
+          href="https://www.aparat.com/AtiehBrokerage"
           className="aparat"
           target="_blank"
         >

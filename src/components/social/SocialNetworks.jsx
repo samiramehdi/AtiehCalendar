@@ -9,7 +9,7 @@ export default function SocialNetworks() {
 
       <div className="social-links">
         <a
-          href="https://www.instagram.com/atiehbroker"
+          href="https://www.instagram.com/atiehbrokerage"
           className="instagram"
           target="_blank"
         >
@@ -17,7 +17,8 @@ export default function SocialNetworks() {
         </a>
 
         <a
-          href="https://t.me/s/AtiehBroker"
+          // href="https://t.me/s/AtiehBroker"
+          href="https://t.me/Atieh_Brokerage"
           className="telegram"
           target="_blank"
         >

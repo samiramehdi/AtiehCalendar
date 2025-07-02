@@ -20,7 +20,7 @@ export default function January() {
 
       <header>
         <h1>کارگزاری آتیه</h1>
-        <span>آتیه خود را با ما بسازید</span>
+        {/* <span>آتیه خود را با ما بسازید</span> */}
       </header>
       <AudioPlayer {...{ currentTrack, currentLable, currentText }} />
       <WebsiteItems />
